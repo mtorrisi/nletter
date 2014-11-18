@@ -1,0 +1,145 @@
+html, body {
+	background-color: #eeeeee;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#page {
+	width: 800px;
+	background-color: white;
+	border: 1px solid silver;
+	margin: auto;
+}
+
+#header,
+#content,
+#footer {
+	width: 100%;
+	display: inline-block;
+}
+
+#header {
+	border-bottom: 1px solid silver;
+	display: inline;
+}
+
+#logo {
+	float: left;
+	padding: 5px;
+}
+
+#newsletter {
+	float: right;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding: 50px;
+	letter-spacing: 5px;
+}
+
+.content {
+width: 620px;
+float: right;
+}
+.content-art {
+width: 100%;
+}
+.item {
+display: inline-block;
+padding: 40px 20px 0px 20px;
+}
+.item .icon-art {
+background: #eaeaea;
+align:right;
+}
+
+.item .image {
+	float: left;
+	width: 100px;
+	border: 1px solid navy;
+	margin-right: 25px;
+}
+.item .image-art img{
+	float: left;
+	width: 250px;
+	border: 1px solid navy;
+	margin-right: 15px;
+}
+.item:nth-child(2n) .image {
+	float: right;
+	width: 100px;
+	border: 1px solid navy;
+	margin-right: 0px;
+	margin-left: 25px;
+}
+
+.item:nth-child(2n) {
+	background-color: #f8f8f8;
+	width: 760px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+.item .image img{
+	width: 100px;
+}
+.item .titolo {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	color: #6966fc;
+
+}
+
+
+.item .abstract {
+	font-size: 12px;
+	color: #4f4f4f;
+	text-align: justify;
+}
+
+.item .author {
+	width: 620px;
+	display: inline-block;
+	text-align: right;
+	border-top: 1px solid silver;
+	margin-top: 10px;
+}
+
+.item .author-item {
+	float: right;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.item .author-item img {
+	width: 20px;
+	float: left;
+	vertical-align: middle;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.item .more {
+	text-align: right;
+	font-size: 12px;
+}
+
+
+/* FOOTER */
+
+#footer {
+	margin-top: 20px;
+	border-top: 1px solid silver;
+	padding-top: 20px;
+}
+
+#partner {
+	padding: 20px;
+	float: left;
+}
+
+#copy {
+	padding: 20px;
+	float: right;
+	font-size: 13px;
+}
